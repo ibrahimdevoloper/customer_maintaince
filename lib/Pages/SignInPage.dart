@@ -1,6 +1,7 @@
+import 'package:customer_maintaince/Widgets/FomBlueToLightBlueGlassContainer.dart';
+import 'package:customer_maintaince/Widgets/FromWhiteToLightGrayGlassContainer.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:glassmorphism/glassmorphism.dart';
 
 class SignInPage extends StatelessWidget {
   @override
@@ -33,33 +34,33 @@ class SignInPage extends StatelessWidget {
               ),
               Column(
                 children: [
-                  GlassmorphicContainer(
+                  FomBlueToLightBlueGlassContainer(
                     width: 350,
                     height: 64,
                     borderRadius: 16,
-                    blur: 4,
-                    // alignment: Alignment.center,
-                    border: 0,
-                    linearGradient: LinearGradient(
-                      begin: Alignment.topLeft,
-                      end: Alignment.bottomRight,
-                      colors: [
-                        Color(0xFF2891ce).withOpacity(0.5),
-                        Color(0xFF2891ce).withOpacity(0.7),
-                        Color(0xFF2891ce).withOpacity(0.5),
-                      ],
-                      stops: [0, 0.5, 1],
-                    ),
-                    borderGradient: LinearGradient(
-                      begin: Alignment.topLeft,
-                      end: Alignment.bottomRight,
-                      colors: [
-                        Color(0xFFffffff).withOpacity(0.5),
-                        Color(0xFFFFFFFF).withOpacity(0.7),
-                        Color(0xFFffffff).withOpacity(0.5),
-                      ],
-                      stops: [0, 0.5, 1],
-                    ),
+                    // blur: 4,
+                    // // alignment: Alignment.center,
+                    // border: 0,
+                    // linearGradient: LinearGradient(
+                    //   begin: Alignment.topLeft,
+                    //   end: Alignment.bottomRight,
+                    //   colors: [
+                    //     Color(0xFF2891ce).withOpacity(0.5),
+                    //     Color(0xFF2891ce).withOpacity(0.7),
+                    //     Color(0xFF2891ce).withOpacity(0.5),
+                    //   ],
+                    //   stops: [0, 0.5, 1],
+                    // ),
+                    // borderGradient: LinearGradient(
+                    //   begin: Alignment.topLeft,
+                    //   end: Alignment.bottomRight,
+                    //   colors: [
+                    //     Color(0xFFffffff).withOpacity(0.5),
+                    //     Color(0xFFFFFFFF).withOpacity(0.7),
+                    //     Color(0xFFffffff).withOpacity(0.5),
+                    //   ],
+                    //   stops: [0, 0.5, 1],
+                    // ),
                     child: Center(
                         child: Padding(
                       padding: const EdgeInsets.all(8.0),
@@ -86,33 +87,33 @@ class SignInPage extends StatelessWidget {
                   SizedBox(
                     height: 16,
                   ),
-                  GlassmorphicContainer(
+                  FomBlueToLightBlueGlassContainer(
                     width: 350,
                     height: 64,
-                    borderRadius: 16,
-                    blur: 4,
-                    // alignment: Alignment.center,
-                    border: 0,
-                    linearGradient: LinearGradient(
-                      begin: Alignment.topLeft,
-                      end: Alignment.bottomRight,
-                      colors: [
-                        Color(0xFF2891ce).withOpacity(0.5),
-                        Color(0xFF2891ce).withOpacity(0.7),
-                        Color(0xFF2891ce).withOpacity(0.5),
-                      ],
-                      stops: [0, 0.5, 1],
-                    ),
-                    borderGradient: LinearGradient(
-                      begin: Alignment.topLeft,
-                      end: Alignment.bottomRight,
-                      colors: [
-                        Color(0xFFffffff).withOpacity(0.5),
-                        Color(0xFFFFFFFF).withOpacity(0.7),
-                        Color(0xFFffffff).withOpacity(0.5),
-                      ],
-                      stops: [0, 0.5, 1],
-                    ),
+                    // borderRadius: 16,
+                    // blur: 4,
+                    // // alignment: Alignment.center,
+                    // border: 0,
+                    // linearGradient: LinearGradient(
+                    //   begin: Alignment.topLeft,
+                    //   end: Alignment.bottomRight,
+                    //   colors: [
+                    //     Color(0xFF2891ce).withOpacity(0.5),
+                    //     Color(0xFF2891ce).withOpacity(0.7),
+                    //     Color(0xFF2891ce).withOpacity(0.5),
+                    //   ],
+                    //   stops: [0, 0.5, 1],
+                    // ),
+                    // borderGradient: LinearGradient(
+                    //   begin: Alignment.topLeft,
+                    //   end: Alignment.bottomRight,
+                    //   colors: [
+                    //     Color(0xFFffffff).withOpacity(0.5),
+                    //     Color(0xFFFFFFFF).withOpacity(0.7),
+                    //     Color(0xFFffffff).withOpacity(0.5),
+                    //   ],
+                    //   stops: [0, 0.5, 1],
+                    // ),
                     child: Center(
                         child: Padding(
                       padding: const EdgeInsets.all(8.0),
@@ -144,45 +145,43 @@ class SignInPage extends StatelessWidget {
                   mainAxisSize: MainAxisSize.max,
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
-                    GlassmorphicContainer(
+                    FromWhiteToLightGrayGlassContainer(
                       width: 160,
                       height: 60,
-                      borderRadius: 12,
-                      blur: 6,
-                      alignment: Alignment.bottomCenter,
-                      border: 3,
-                      linearGradient: LinearGradient(
-                        begin: Alignment.topLeft,
-                        end: Alignment.bottomRight,
-                        colors: [
-                          // 5D5D5D
-                          // border :6a6b75
-                          Color(0xFF5D5D5D).withOpacity(0.50),
-                          Color(0xFF5D5D5D).withOpacity(0.50),
-                          Color(0xFF5D5D5D).withOpacity(0.50),
-                        ],
-                        stops: [0, 0.5, 1],
-                      ),
-                      borderGradient: LinearGradient(
-                        begin: Alignment.topLeft,
-                        end: Alignment.bottomRight,
-                        colors: [
-                          Color(0xFF6a6b75).withOpacity(0.5),
-                          Color((0xFF6a6b75)).withOpacity(0.5),
-                        ],
-                      ),
-                      // borderGradient: null,
-                      child: TextButton(
-                        onPressed: () {
-                          //TODO: go to Main Page
-                        },
-                        child: Center(
-                          child: Text(
-                            "Sign In".tr,
-                            style: TextStyle(
-                              fontSize: 20,
-                              color: Colors.white,
-                            ),
+                      // borderRadius: 12,
+                      // blur: 6,
+                      // alignment: Alignment.bottomCenter,
+                      // border: 3,
+                      // linearGradient: LinearGradient(
+                      //   begin: Alignment.topLeft,
+                      //   end: Alignment.bottomRight,
+                      //   colors: [
+                      //     // 5D5D5D
+                      //     // border :6a6b75
+                      //     Color(0xFF5D5D5D).withOpacity(0.50),
+                      //     Color(0xFF5D5D5D).withOpacity(0.50),
+                      //     Color(0xFF5D5D5D).withOpacity(0.50),
+                      //   ],
+                      //   stops: [0, 0.5, 1],
+                      // ),
+                      // borderGradient: LinearGradient(
+                      //   begin: Alignment.topLeft,
+                      //   end: Alignment.bottomRight,
+                      //   colors: [
+                      //     Color(0xFF6a6b75).withOpacity(0.5),
+                      //     Color((0xFF6a6b75)).withOpacity(0.5),
+                      //   ],
+                      // ),
+                      // // borderGradient: null,
+                      onPressed: () {
+                        //TODO: go to Main Page
+                      },
+                      child: Center(
+                        child: Text(
+                          "Sign In".tr,
+                          style: TextStyle(
+                            fontSize: 20,
+                            color: Colors.white,
                           ),
                         ),
                       ),
@@ -190,45 +189,43 @@ class SignInPage extends StatelessWidget {
                     SizedBox(
                       height: 16,
                     ),
-                    GlassmorphicContainer(
+                    FromWhiteToLightGrayGlassContainer(
                       width: 160,
                       height: 60,
-                      borderRadius: 12,
-                      blur: 6,
-                      alignment: Alignment.bottomCenter,
-                      border: 3,
-                      linearGradient: LinearGradient(
-                        begin: Alignment.topLeft,
-                        end: Alignment.bottomRight,
-                        colors: [
-                          // 5D5D5D
-                          // border :6a6b75
-                          Color(0xFF5D5D5D).withOpacity(0.50),
-                          Color(0xFF5D5D5D).withOpacity(0.50),
-                          Color(0xFF5D5D5D).withOpacity(0.50),
-                        ],
-                        stops: [0, 0.5, 1],
-                      ),
-                      borderGradient: LinearGradient(
-                        begin: Alignment.topLeft,
-                        end: Alignment.bottomRight,
-                        colors: [
-                          Color(0xFF6a6b75).withOpacity(0.5),
-                          Color((0xFF6a6b75)).withOpacity(0.5),
-                        ],
-                      ),
-                      // borderGradient: null,
-                      child: TextButton(
-                        onPressed: () {
-                          Get.back();
-                        },
-                        child: Center(
-                          child: Text(
-                            "Cancel".tr,
-                            style: TextStyle(
-                              fontSize: 20,
-                              color: Colors.white,
-                            ),
+                      // borderRadius: 12,
+                      // blur: 6,
+                      // alignment: Alignment.bottomCenter,
+                      // border: 3,
+                      // linearGradient: LinearGradient(
+                      //   begin: Alignment.topLeft,
+                      //   end: Alignment.bottomRight,
+                      //   colors: [
+                      //     // 5D5D5D
+                      //     // border :6a6b75
+                      //     Color(0xFF5D5D5D).withOpacity(0.50),
+                      //     Color(0xFF5D5D5D).withOpacity(0.50),
+                      //     Color(0xFF5D5D5D).withOpacity(0.50),
+                      //   ],
+                      //   stops: [0, 0.5, 1],
+                      // ),
+                      // borderGradient: LinearGradient(
+                      //   begin: Alignment.topLeft,
+                      //   end: Alignment.bottomRight,
+                      //   colors: [
+                      //     Color(0xFF6a6b75).withOpacity(0.5),
+                      //     Color((0xFF6a6b75)).withOpacity(0.5),
+                      //   ],
+                      // ),
+                      // // borderGradient: null,.
+                      onPressed: () {
+                        Get.back();
+                      },
+                      child: Center(
+                        child: Text(
+                          "Cancel".tr,
+                          style: TextStyle(
+                            fontSize: 20,
+                            color: Colors.white,
                           ),
                         ),
                       ),

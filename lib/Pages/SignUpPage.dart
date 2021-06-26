@@ -1,3 +1,4 @@
+import 'package:customer_maintaince/Widgets/FomBlueToLightBlueGlassContainer.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
@@ -38,33 +39,33 @@ class SignUpPage extends StatelessWidget {
                     shrinkWrap: true,
                     padding: EdgeInsets.symmetric(horizontal: 24),
                     children: [
-                      GlassmorphicContainer(
+                      FomBlueToLightBlueGlassContainer(
                         width: 350,
                         height: 64,
-                        borderRadius: 16,
-                        blur: 4,
-                        // alignment: Alignment.center,
-                        border: 0,
-                        linearGradient: LinearGradient(
-                          begin: Alignment.topLeft,
-                          end: Alignment.bottomRight,
-                          colors: [
-                            Color(0xFF2891ce).withOpacity(0.5),
-                            Color(0xFF2891ce).withOpacity(0.7),
-                            Color(0xFF2891ce).withOpacity(0.5),
-                          ],
-                          stops: [0, 0.5, 1],
-                        ),
-                        borderGradient: LinearGradient(
-                          begin: Alignment.topLeft,
-                          end: Alignment.bottomRight,
-                          colors: [
-                            Color(0xFFffffff).withOpacity(0.5),
-                            Color(0xFFFFFFFF).withOpacity(0.7),
-                            Color(0xFFffffff).withOpacity(0.5),
-                          ],
-                          stops: [0, 0.5, 1],
-                        ),
+                        // borderRadius: 16,
+                        // blur: 4,
+                        // // alignment: Alignment.center,
+                        // border: 0,
+                        // linearGradient: LinearGradient(
+                        //   begin: Alignment.topLeft,
+                        //   end: Alignment.bottomRight,
+                        //   colors: [
+                        //     Color(0xFF2891ce).withOpacity(0.5),
+                        //     Color(0xFF2891ce).withOpacity(0.7),
+                        //     Color(0xFF2891ce).withOpacity(0.5),
+                        //   ],
+                        //   stops: [0, 0.5, 1],
+                        // ),
+                        // borderGradient: LinearGradient(
+                        //   begin: Alignment.topLeft,
+                        //   end: Alignment.bottomRight,
+                        //   colors: [
+                        //     Color(0xFFffffff).withOpacity(0.5),
+                        //     Color(0xFFFFFFFF).withOpacity(0.7),
+                        //     Color(0xFFffffff).withOpacity(0.5),
+                        //   ],
+                        //   stops: [0, 0.5, 1],
+                        // ),
                         child: Center(
                             child: Padding(
                           padding: const EdgeInsets.all(8.0),
@@ -91,33 +92,33 @@ class SignUpPage extends StatelessWidget {
                       SizedBox(
                         height: 16,
                       ),
-                      GlassmorphicContainer(
+                      FomBlueToLightBlueGlassContainer(
                         width: 350,
                         height: 64,
-                        borderRadius: 16,
-                        blur: 4,
-                        // alignment: Alignment.center,
-                        border: 0,
-                        linearGradient: LinearGradient(
-                          begin: Alignment.topLeft,
-                          end: Alignment.bottomRight,
-                          colors: [
-                            Color(0xFF2891ce).withOpacity(0.5),
-                            Color(0xFF2891ce).withOpacity(0.7),
-                            Color(0xFF2891ce).withOpacity(0.5),
-                          ],
-                          stops: [0, 0.5, 1],
-                        ),
-                        borderGradient: LinearGradient(
-                          begin: Alignment.topLeft,
-                          end: Alignment.bottomRight,
-                          colors: [
-                            Color(0xFFffffff).withOpacity(0.5),
-                            Color(0xFFFFFFFF).withOpacity(0.7),
-                            Color(0xFFffffff).withOpacity(0.5),
-                          ],
-                          stops: [0, 0.5, 1],
-                        ),
+                        // borderRadius: 16,
+                        // blur: 4,
+                        // // alignment: Alignment.center,
+                        // border: 0,
+                        // linearGradient: LinearGradient(
+                        //   begin: Alignment.topLeft,
+                        //   end: Alignment.bottomRight,
+                        //   colors: [
+                        //     Color(0xFF2891ce).withOpacity(0.5),
+                        //     Color(0xFF2891ce).withOpacity(0.7),
+                        //     Color(0xFF2891ce).withOpacity(0.5),
+                        //   ],
+                        //   stops: [0, 0.5, 1],
+                        // ),
+                        // borderGradient: LinearGradient(
+                        //   begin: Alignment.topLeft,
+                        //   end: Alignment.bottomRight,
+                        //   colors: [
+                        //     Color(0xFFffffff).withOpacity(0.5),
+                        //     Color(0xFFFFFFFF).withOpacity(0.7),
+                        //     Color(0xFFffffff).withOpacity(0.5),
+                        //   ],
+                        //   stops: [0, 0.5, 1],
+                        // ),
                         child: Center(
                             child: Padding(
                           padding: const EdgeInsets.all(8.0),
@@ -144,33 +145,33 @@ class SignUpPage extends StatelessWidget {
                       SizedBox(
                         height: 16,
                       ),
-                      GlassmorphicContainer(
+                      FomBlueToLightBlueGlassContainer(
                         width: 350,
                         height: 64,
-                        borderRadius: 16,
-                        blur: 4,
-                        // alignment: Alignment.center,
-                        border: 0,
-                        linearGradient: LinearGradient(
-                          begin: Alignment.topLeft,
-                          end: Alignment.bottomRight,
-                          colors: [
-                            Color(0xFF2891ce).withOpacity(0.5),
-                            Color(0xFF2891ce).withOpacity(0.7),
-                            Color(0xFF2891ce).withOpacity(0.5),
-                          ],
-                          stops: [0, 0.5, 1],
-                        ),
-                        borderGradient: LinearGradient(
-                          begin: Alignment.topLeft,
-                          end: Alignment.bottomRight,
-                          colors: [
-                            Color(0xFFffffff).withOpacity(0.5),
-                            Color(0xFFFFFFFF).withOpacity(0.7),
-                            Color(0xFFffffff).withOpacity(0.5),
-                          ],
-                          stops: [0, 0.5, 1],
-                        ),
+                        // borderRadius: 16,
+                        // blur: 4,
+                        // // alignment: Alignment.center,
+                        // border: 0,
+                        // linearGradient: LinearGradient(
+                        //   begin: Alignment.topLeft,
+                        //   end: Alignment.bottomRight,
+                        //   colors: [
+                        //     Color(0xFF2891ce).withOpacity(0.5),
+                        //     Color(0xFF2891ce).withOpacity(0.7),
+                        //     Color(0xFF2891ce).withOpacity(0.5),
+                        //   ],
+                        //   stops: [0, 0.5, 1],
+                        // ),
+                        // borderGradient: LinearGradient(
+                        //   begin: Alignment.topLeft,
+                        //   end: Alignment.bottomRight,
+                        //   colors: [
+                        //     Color(0xFFffffff).withOpacity(0.5),
+                        //     Color(0xFFFFFFFF).withOpacity(0.7),
+                        //     Color(0xFFffffff).withOpacity(0.5),
+                        //   ],
+                        //   stops: [0, 0.5, 1],
+                        // ),
                         child: Center(
                             child: Padding(
                           padding: const EdgeInsets.all(8.0),
@@ -197,33 +198,33 @@ class SignUpPage extends StatelessWidget {
                       SizedBox(
                         height: 16,
                       ),
-                      GlassmorphicContainer(
+                      FomBlueToLightBlueGlassContainer(
                         width: 350,
                         height: 64,
-                        borderRadius: 16,
-                        blur: 4,
-                        // alignment: Alignment.center,
-                        border: 0,
-                        linearGradient: LinearGradient(
-                          begin: Alignment.topLeft,
-                          end: Alignment.bottomRight,
-                          colors: [
-                            Color(0xFF2891ce).withOpacity(0.5),
-                            Color(0xFF2891ce).withOpacity(0.7),
-                            Color(0xFF2891ce).withOpacity(0.5),
-                          ],
-                          stops: [0, 0.5, 1],
-                        ),
-                        borderGradient: LinearGradient(
-                          begin: Alignment.topLeft,
-                          end: Alignment.bottomRight,
-                          colors: [
-                            Color(0xFFffffff).withOpacity(0.5),
-                            Color(0xFFFFFFFF).withOpacity(0.7),
-                            Color(0xFFffffff).withOpacity(0.5),
-                          ],
-                          stops: [0, 0.5, 1],
-                        ),
+                        // borderRadius: 16,
+                        // blur: 4,
+                        // // alignment: Alignment.center,
+                        // border: 0,
+                        // linearGradient: LinearGradient(
+                        //   begin: Alignment.topLeft,
+                        //   end: Alignment.bottomRight,
+                        //   colors: [
+                        //     Color(0xFF2891ce).withOpacity(0.5),
+                        //     Color(0xFF2891ce).withOpacity(0.7),
+                        //     Color(0xFF2891ce).withOpacity(0.5),
+                        //   ],
+                        //   stops: [0, 0.5, 1],
+                        // ),
+                        // borderGradient: LinearGradient(
+                        //   begin: Alignment.topLeft,
+                        //   end: Alignment.bottomRight,
+                        //   colors: [
+                        //     Color(0xFFffffff).withOpacity(0.5),
+                        //     Color(0xFFFFFFFF).withOpacity(0.7),
+                        //     Color(0xFFffffff).withOpacity(0.5),
+                        //   ],
+                        //   stops: [0, 0.5, 1],
+                        // ),
                         child: Center(
                             child: Padding(
                           padding: const EdgeInsets.all(8.0),
@@ -250,33 +251,33 @@ class SignUpPage extends StatelessWidget {
                       SizedBox(
                         height: 16,
                       ),
-                      GlassmorphicContainer(
+                      FomBlueToLightBlueGlassContainer(
                         width: 350,
                         height: 64,
-                        borderRadius: 16,
-                        blur: 4,
-                        // alignment: Alignment.center,
-                        border: 0,
-                        linearGradient: LinearGradient(
-                          begin: Alignment.topLeft,
-                          end: Alignment.bottomRight,
-                          colors: [
-                            Color(0xFF2891ce).withOpacity(0.5),
-                            Color(0xFF2891ce).withOpacity(0.7),
-                            Color(0xFF2891ce).withOpacity(0.5),
-                          ],
-                          stops: [0, 0.5, 1],
-                        ),
-                        borderGradient: LinearGradient(
-                          begin: Alignment.topLeft,
-                          end: Alignment.bottomRight,
-                          colors: [
-                            Color(0xFFffffff).withOpacity(0.5),
-                            Color(0xFFFFFFFF).withOpacity(0.7),
-                            Color(0xFFffffff).withOpacity(0.5),
-                          ],
-                          stops: [0, 0.5, 1],
-                        ),
+                        // borderRadius: 16,
+                        // blur: 4,
+                        // // alignment: Alignment.center,
+                        // border: 0,
+                        // linearGradient: LinearGradient(
+                        //   begin: Alignment.topLeft,
+                        //   end: Alignment.bottomRight,
+                        //   colors: [
+                        //     Color(0xFF2891ce).withOpacity(0.5),
+                        //     Color(0xFF2891ce).withOpacity(0.7),
+                        //     Color(0xFF2891ce).withOpacity(0.5),
+                        //   ],
+                        //   stops: [0, 0.5, 1],
+                        // ),
+                        // borderGradient: LinearGradient(
+                        //   begin: Alignment.topLeft,
+                        //   end: Alignment.bottomRight,
+                        //   colors: [
+                        //     Color(0xFFffffff).withOpacity(0.5),
+                        //     Color(0xFFFFFFFF).withOpacity(0.7),
+                        //     Color(0xFFffffff).withOpacity(0.5),
+                        //   ],
+                        //   stops: [0, 0.5, 1],
+                        // ),
                         child: Center(
                             child: Padding(
                           padding: const EdgeInsets.all(8.0),

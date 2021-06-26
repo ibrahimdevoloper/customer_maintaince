@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 // for buttons
 class FromWhiteToLightGrayGlassContainer extends StatelessWidget {
   Widget _child;
-  double _hight;
+  double _height;
   double _width;
   double _borderRadius;
   Function _onPressed;
@@ -14,11 +14,11 @@ class FromWhiteToLightGrayGlassContainer extends StatelessWidget {
     Key key,
     @required Widget child,
     @required Function onPressed,
-    double hight,
+    double height,
     double width,
     double borderRadius,
   })  : this._child = child,
-        this._hight = hight,
+        this._height = height,
         this._width = width,
         this._borderRadius = borderRadius ?? 16,
         this._onPressed = onPressed,
@@ -35,7 +35,7 @@ class FromWhiteToLightGrayGlassContainer extends StatelessWidget {
           Radius.circular(_borderRadius),
         ),
         child: Container(
-          height: _hight,
+          height: _height,
           width: _width,
           decoration: BoxDecoration(
             borderRadius: BorderRadius.all(

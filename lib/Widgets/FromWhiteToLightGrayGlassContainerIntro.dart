@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
 // for text fields
-class FomBlueToLightBlueGlassContainer extends StatelessWidget {
+class FromWhiteToLightGrayGlassContainerIntro extends StatelessWidget {
   final Widget _child;
   double _height;
   double _width;
   double _borderRadius;
 
-  FomBlueToLightBlueGlassContainer({
+  FromWhiteToLightGrayGlassContainerIntro({
     Key key,
     @required Widget child,
     double height,
@@ -27,14 +27,14 @@ class FomBlueToLightBlueGlassContainer extends StatelessWidget {
       width: _width,
       decoration: BoxDecoration(
         gradient: LinearGradient(
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
+          begin: Alignment.centerRight,
+          end: Alignment.centerLeft,
           colors: [
-            // Color(0xFF143777).withOpacity(0.5),
-            // Color(0xFF143777).withOpacity(0.7),
-            // Color(0xFF143777).withOpacity(0.5),
-            Color(0xFF5AB2F7).withOpacity(0.4),
-            Color(0xFF12CFF3).withOpacity(0.4),
+            // 5D5D5D
+            // border :6a6b75
+            Color(0xFFebf4f5).withOpacity(0.60),
+            Color(0xFFb5c6e0).withOpacity(0.60),
+            // Color(0xFFf68080).withOpacity(0.50),
           ],
           stops: [0.1, 0.9],
         ),

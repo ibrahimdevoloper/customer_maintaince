@@ -2,6 +2,7 @@ import 'package:customer_maintaince/GetControllers/PreviousDevicesGetController.
 import 'package:customer_maintaince/Pages/DisplayDevicesResultPage.dart';
 import 'package:customer_maintaince/Widgets/FomBlueToLightBlueGlassContainer.dart';
 import 'package:customer_maintaince/Widgets/FromWhiteToLightGrayGlassContainer.dart';
+import 'package:customer_maintaince/Widgets/ICAnimation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -16,7 +17,7 @@ class DisplayDevicesTab extends StatelessWidget {
           init: _previousDevicesGetController,
           builder: (state) {
             if (state.isLoading)
-              return CircularProgressIndicator();
+              return ICAnimation();
             else if (state.isError)
               Text("error");
             else
@@ -70,7 +71,7 @@ class DisplayDevicesTab extends StatelessWidget {
                         Get.to(() => DisplayDevicesResult());
                       },
                       width: 160,
-                      hight: 60,
+                      height: 60,
                       child: Center(
                         child: Text(
                           "Send".tr,

@@ -52,7 +52,11 @@ Woody equal ask saw sir weeks aware decay. Entrance prospect removing we package
 Extremity direction existence as dashwoods do up. Securing marianne led welcomed offended but offering six raptures. Conveying concluded newspaper rapturous oh at. Two indeed suffer saw beyond far former mrs remain. Occasional continuing possession we insensible an sentiments as is. Law but reasonably motionless principles she. Has six worse downs far blush rooms above stood. 
 
 She exposed painted fifteen are noisier mistake led waiting. Surprise not wandered speedily husbands although yet end. Are court tiled cease young built fat one man taken. We highest ye friends is exposed equally in. Ignorant had too strictly followed. Astonished as travelling assistance or unreserved oh pianoforte ye. Five with seen put need tore add neat. Bringing it is he returned received raptures. ''',
-          "Notification": "Notification"
+          "Notification": "Notification",
+          "English": "English",
+          "Arabic": "Arabic",
+          "Date": "Date",
+          "Notification Detail": "Notification Detail"
         },
         'ar': {
           "Sign In": "تسجيل دخول",
@@ -103,7 +107,11 @@ Woody equal ask saw sir weeks aware decay. Entrance prospect removing we package
 Extremity direction existence as dashwoods do up. Securing marianne led welcomed offended but offering six raptures. Conveying concluded newspaper rapturous oh at. Two indeed suffer saw beyond far former mrs remain. Occasional continuing possession we insensible an sentiments as is. Law but reasonably motionless principles she. Has six worse downs far blush rooms above stood. 
 
 She exposed painted fifteen are noisier mistake led waiting. Surprise not wandered speedily husbands although yet end. Are court tiled cease young built fat one man taken. We highest ye friends is exposed equally in. Ignorant had too strictly followed. Astonished as travelling assistance or unreserved oh pianoforte ye. Five with seen put need tore add neat. Bringing it is he returned received raptures. ''',
-          "Notification": "إشعارات"
+          "Notification": "إشعارات",
+          "English": "إنجليزية",
+          "Arabic": "العربية",
+          "Date": "التاريخ",
+          "Notification Detail": "تفاصيل الإشعار"
         }
       };
 }

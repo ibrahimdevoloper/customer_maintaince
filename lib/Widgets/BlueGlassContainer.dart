@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 // for displaying data only
 class BlueGlassContainer extends StatelessWidget {
   final Widget _child;
-  double _hight;
+  double _height;
   double _width;
   BorderRadius _borderRadius;
   Offset _offset;
@@ -13,14 +13,14 @@ class BlueGlassContainer extends StatelessWidget {
   BlueGlassContainer({
     Key key,
     @required Widget child,
-    double hight,
+    double height,
     double width,
     BorderRadius borderRadius,
     Offset offset,
     double spreadRadius,
     double blurRadius,
   })  : this._child = child,
-        this._hight = hight,
+        this._height = height,
         this._width = width,
         this._borderRadius = borderRadius ??
             BorderRadius.all(
@@ -35,7 +35,7 @@ class BlueGlassContainer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
-      height: _hight,
+      height: _height,
       width: _width,
       decoration: BoxDecoration(
         gradient: LinearGradient(

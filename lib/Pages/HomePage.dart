@@ -4,7 +4,6 @@ import 'package:customer_maintaince/Tabs/DisplayDevicesTab.dart';
 import 'package:customer_maintaince/Tabs/PreviousDevicesTab.dart';
 import 'package:customer_maintaince/Tabs/ServiceRatingTab.dart';
 import 'package:customer_maintaince/Tabs/TermsOfServiceTab.dart';
-import 'package:customer_maintaince/Widgets/ICAnimation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
@@ -63,21 +62,76 @@ class _HomePageState extends State<HomePage> {
             drawer: Drawer(
                 child: Column(
               children: [
-                ICAnimation(),
-                Expanded(
-                  child: Center(
-                    child: ToggleSwitch(
-                      minWidth: 100.0,
-                      cornerRadius: 16.0,
-                      activeBgColor: Colors.cyan,
-                      activeFgColor: Colors.white,
-                      inactiveBgColor: Colors.grey,
-                      inactiveFgColor: Colors.white,
-                      labels: ['YES', 'NO'],
-                      onToggle: (index) {
-                        print('switched to: $index');
-                      },
+                DrawerHeader(
+                  decoration: BoxDecoration(
+                      image: DecorationImage(
+                    fit: BoxFit.cover,
+                    image: AssetImage(
+                      "assets/images/drawerBackground.png",
                     ),
+                  )),
+                  child: Center(
+                    child: Image.asset("assets/images/marvelLogoOrange.png"),
+                  ),
+                ),
+                Expanded(
+                  child: ListView(
+                    children: [
+                      ListTile(
+                        leading: Icon(
+                          Icons.person,
+                          color: Colors.blue,
+                        ),
+                        title: Text("Sign In".tr),
+                      ),
+                      ListTile(
+                        leading: Icon(
+                          Icons.build_circle,
+                          color: Colors.blue,
+                        ),
+                        title: Text("Display Devices".tr),
+                      ),
+                      ListTile(
+                        leading: Icon(
+                          Icons.auto_awesome_motion,
+                          color: Colors.blue,
+                        ),
+                        title: Text("Check Devices".tr),
+                      ),
+                      ListTile(
+                        leading: Icon(
+                          Icons.stars,
+                          color: Colors.blue,
+                        ),
+                        title: Text("Rate Our Service".tr),
+                      ),
+                      ListTile(
+                        leading: Icon(
+                          Icons.text_snippet,
+                          color: Colors.blue,
+                        ),
+                        title: Text("Service Terms".tr),
+                      ),
+                      Center(
+                        child: ToggleSwitch(
+                          minWidth: 100.0,
+                          cornerRadius: 16.0,
+                          activeBgColor: Colors.blue,
+                          activeFgColor: Colors.white,
+                          inactiveBgColor: Colors.grey,
+                          inactiveFgColor: Colors.white,
+                          labels: ['Arabic'.tr, 'English'.tr],
+                          onToggle: (index) {
+                            print('switched to: $index');
+                            if (index == 0)
+                              Get.updateLocale(Locale("ar"));
+                            else
+                              Get.updateLocale(Locale("en"));
+                            Get.back();
+                          },
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ],

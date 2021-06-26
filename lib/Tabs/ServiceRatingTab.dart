@@ -169,7 +169,7 @@ class _ServiceRatingTabState extends State<ServiceRatingTab> {
                   : EdgeInsets.only(bottom: 52),
               child: FromWhiteToLightGrayGlassContainer(
                 width: 160,
-                hight: 60,
+                height: 60,
                 onPressed: () {},
                 child: Center(
                   child: Text(

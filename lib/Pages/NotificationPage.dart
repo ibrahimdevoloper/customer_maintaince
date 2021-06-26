@@ -33,14 +33,14 @@ class NotificationPage extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text(
-                        "Date:".tr,
+                        "${"Date".tr}:",
                         style: GoogleFonts.cairo(
-                            color: Color(0xFFFEC014), fontSize: 20),
+                            color: Colors.white, fontSize: 16),
                       ),
                       Text(
-                        "Notification Details:".tr,
+                        "${"Notification Detail".tr}:",
                         style: GoogleFonts.cairo(
-                            color: Color(0xFFFEC014), fontSize: 20),
+                            color: Colors.white, fontSize: 16),
                       ),
                     ],
                   ),

@@ -9,22 +9,60 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      translations: Messages(), // your translations
-      locale: Get.deviceLocale, // translations will be displayed in that locale
-      fallbackLocale: Locale(
-          'en'), // specify the fallback locale in case an invalid locale is selected.
-
+      debugShowCheckedModeBanner: false,
+      translations: Messages(),
+      locale: Get.deviceLocale,
+      fallbackLocale: Locale('en'),
       theme: ThemeData(
-        primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-        textTheme: GoogleFonts.cairoTextTheme(
-          Theme.of(context).textTheme,
-        ),
-      ),
+          primarySwatch: Colors.blue,
+          visualDensity: VisualDensity.adaptivePlatformDensity,
+          textTheme: GoogleFonts.tajawalTextTheme(Theme.of(context).textTheme)
+          // .copyWith(
+          //   button: Theme.of(context).textTheme
+          //       .apply(
+          //         fontWeightDelta: 2,
+          //       ),
+          //   bodyText1: Theme.of(context).textTheme.bodyText1.apply(
+          //         fontWeightDelta: 2,
+          //       ),
+          //   bodyText2: Theme.of(context).textTheme.bodyText2.apply(
+          //         fontWeightDelta: 2,
+          //       ),
+          //   caption: Theme.of(context).textTheme.caption.apply(
+          //         fontWeightDelta: 2,
+          //       ),
+          //   headline1: Theme.of(context).textTheme.headline1.apply(
+          //         fontWeightDelta: 2,
+          //       ),
+          //   headline2: Theme.of(context).textTheme.headline2.apply(
+          //         fontWeightDelta: 2,
+          //       ),
+          //   headline4: Theme.of(context).textTheme.headline4.apply(
+          //         fontWeightDelta: 2,
+          //       ),
+          //   headline3: Theme.of(context).textTheme.headline3.apply(
+          //         fontWeightDelta: 2,
+          //       ),
+          //   headline5: Theme.of(context).textTheme.headline5.apply(
+          //         fontWeightDelta: 2,
+          //       ),
+          //   headline6: Theme.of(context).textTheme.headline6.apply(
+          //         fontWeightDelta: 2,
+          //       ),
+          //   overline: Theme.of(context).textTheme.overline.apply(
+          //         fontWeightDelta: 2,
+          //       ),
+          //   subtitle1: Theme.of(context).textTheme.subtitle1.apply(
+          //         fontWeightDelta: 2,
+          //       ),
+          //   subtitle2: Theme.of(context).textTheme.subtitle2.apply(
+          //         fontWeightDelta: 2,
+          //       ),
+          // ),
+          ),
       home: IntroPage(),
     );
   }
